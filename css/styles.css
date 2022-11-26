@@ -1,0 +1,203 @@
+body{font-family:'Roboto'}
+  body{color: #FFFFFF;}
+
+.head{
+        border: 1px solid #ECECEC;
+}
+
+ul{list-style: none;}
+
+.web {
+color: #2196F3;
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.studio{
+    color: #000000;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+
+.studio-pointer {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.studio-pointer:hover {
+    color: #2196F3;
+}
+
+.portfolio-pointer {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.portfolio-pointer:hover {
+    color: #2196F3;
+}
+
+.contact-pointer {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contact-pointer:hover {
+    color: #2196F3;
+}
+.contact-pointer:focus{
+    color: #188CE8;
+}
+.mail{
+    color: #757575;
+    font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+}
+.mail:hover{
+    color: #2196F3;
+}
+.tel{
+    color: #757575;
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+}
+.tel:hover{
+    color: #2196F3;
+}
+
+.hero{
+    width: 1600px;
+        left: 0px;
+        top: 80px;
+        background: #2F303A;
+}
+.desigions{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        color: #ffffff;
+}
+.push{
+    color: #FFFFFF;
+    width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+}
+.push:hover{border-color:tomato;}
+
+.push:focus{
+background-color:cornflowerblue;
+}
+.order-service{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+}
+.our-benefits{
+    display: none;
+}
+.benefits{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+.benefit{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.our-business{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our-team{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.profession{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.frame{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.border{
+    background: #F5F4FA;
+}
+.floor{
+        background: #2F303A;
+}
+.studio-floor{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+.location{
+        font-style: normal;
+        color: #FFFFFF;
+}
+.location:hover{
+    color: #188CE8;
+}
+.mail-floor{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.mail-floor:hover{
+    color: #188CE8;
+}
+.tel-floor{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel-floor:hover{
+    color: #188CE8;
+}
+
