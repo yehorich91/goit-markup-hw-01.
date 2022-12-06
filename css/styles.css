@@ -2,14 +2,12 @@
     --main-color:#212121;
     --text-color:#757575;
     --buttons-color:#F5F4FA;
+    --background-color: #ffffff;
+    --background-section: #F5F4FA;
 }
 
 body{font-family:'Roboto';
-  background-color: #FFFFFF;}
-
-.head{
-        border: 1px solid #ECECEC;  
-}
+  background-color:var(--background-color);}
 
 ul{list-style: none;}
 
@@ -43,7 +41,8 @@ font-family: 'Raleway';
     text-decoration: none;
 }
 
-.studio-pointer:hover {
+.studio-pointer:hover,
+.studio-pointer:focus {
     color: #2196F3;
 }
 
@@ -56,7 +55,8 @@ font-family: 'Raleway';
     text-decoration: none;
 }
 
-.portfolio-pointer:hover {
+.portfolio-pointer:hover,
+.portfolio-pointer:focus {
     color: #2196F3;
 }
 
@@ -69,12 +69,10 @@ font-family: 'Raleway';
     text-decoration: none;
 }
 
-.contact-pointer:hover {
-    color: #2196F3;
-}
-.contact-pointer:focus{
-    color: #188CE8;
-}
+.contact-pointer:hover,
+.contact-pointer:focus {
+    color: #2196F3;}
+
 .mail{
     color:var(--text-color);
     font-family:'Roboto';
@@ -84,7 +82,8 @@ font-family: 'Raleway';
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.mail:hover{
+.mail:hover,
+.mail:focus{
     color: #2196F3;
 }
 .tel{
@@ -96,7 +95,8 @@ font-family: 'Raleway';
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.tel:hover{
+.tel:hover,
+.tel:focus{
     color: #2196F3;
 }
 
@@ -111,16 +111,24 @@ font-family: 'Raleway';
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
-        color: #ffffff;
         letter-spacing: 0.06em;
+        color: var(--background-color)
 }
 .push{
-    color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         cursor: pointer;
+        color: var(--background-color)
 }
-.push:hover{background-color:#188CE8;}
+.push:hover,
+.push:focus
+{background-color:#188CE8;}
 
 .order-service{
         font-weight: 700;
@@ -171,6 +179,10 @@ font-family: 'Raleway';
         letter-spacing: 0.03em;
         color:var(--main-color);
 }
+.team-item{
+    background-color: var(--background-color);
+}
+
 .profession{
         font-size: 16px;
         line-height: 1.18;
@@ -183,7 +195,7 @@ font-family: 'Raleway';
 }
 
 .team{
-    background: #FFFFFF;
+    background-color: var(--background-section);
 }
 
 .floor{
@@ -210,9 +222,9 @@ text-decoration: none;
             letter-spacing: 0.03em;
         text-decoration: none;
 }
-.location:hover{
-    color: #188CE8;
-}
+.location:hover,
+.location:focus
+{color: #188CE8;}
 .mail-floor{
         font-style: normal;
         font-weight: 400;
@@ -220,11 +232,10 @@ text-decoration: none;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-        text-decoration: none;
-}
-.mail-floor:hover{
-    color: #188CE8;
-}
+        text-decoration: none;}
+.mail-floor:hover,
+.mail-floor:focus
+{color: #188CE8;}
 .tel-floor{
         font-style: normal;
         font-weight: 400;
@@ -234,12 +245,12 @@ text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
-.tel-floor:hover{
-    color: #188CE8;
+.tel-floor:hover,
+.tel-floor:focus{
+    color: #188CE8;}
 
-}
 .portfolio-buttons{
-font-family: 'inherit';
+font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -251,15 +262,14 @@ font-family: 'inherit';
     border-color:transparent;
     cursor: pointer;
 }
-.portfolio-buttons:hover{
-    background: #2196F3;
+.portfolio-buttons:hover,
+.portfolio-buttons:focus{
+        background: #2196F3;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
         color: #FFFFFF;
 }
 .projects-name{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -267,16 +277,9 @@ font-family: 'inherit';
         color:var(--main-color);
 }
 .project{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
         color:var(--text-color);
-}
-.container{
-    box-sizing: border-box;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
 }
